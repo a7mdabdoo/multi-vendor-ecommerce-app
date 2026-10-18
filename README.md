@@ -1,4 +1,4 @@
-# 🛍️ Multi-Vendor E-Commerce App
+# Multi-Vendor E-Commerce App
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.47+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.13+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
@@ -10,17 +10,19 @@ A production-grade, enterprise-architected Flutter application designed from the
 
 ---
 
-## 📱 App Screenshots Preview
+## Application Screenshots
 
-> Place your 5 screenshots in [`assets/screenshots/`](assets/screenshots/) with names: `screenshot_1_home.png`, `screenshot_2_storefront.png`, `screenshot_3_details.png`, `screenshot_4_cart.png`, and `screenshot_5_checkout.png`.
+| 1. Home (Dark Mode) | 2. Home (Light Mode) | 3. Catalog & Search |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/01_home_dark.png" width="230" alt="Home Screen Dark"/> | <img src="assets/screenshots/02_home_light.png" width="230" alt="Home Screen Light"/> | <img src="assets/screenshots/03_catalog_search.png" width="230" alt="Catalog Search"/> |
 
-| 1. Home & Vendors | 2. Vendor Storefront | 3. Product Details | 4. Grouped Cart | 5. Checkout & Receipt |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="assets/screenshots/screenshot_1_home.png" width="180" alt="Home Screen"/> | <img src="assets/screenshots/screenshot_2_storefront.png" width="180" alt="Vendor Storefront"/> | <img src="assets/screenshots/screenshot_3_details.png" width="180" alt="Product Details"/> | <img src="assets/screenshots/screenshot_4_cart.png" width="180" alt="Grouped Cart"/> | <img src="assets/screenshots/screenshot_5_checkout.png" width="180" alt="Order Success"/> |
+| 4. Vendors Directory | 5. Multi-Vendor Cart | 6. Order Confirmation |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/04_vendors_directory.png" width="230" alt="Vendors Directory"/> | <img src="assets/screenshots/05_cart_grouped.png" width="230" alt="Grouped Cart"/> | <img src="assets/screenshots/06_order_success.png" width="230" alt="Order Success"/> |
 
 ---
 
-## 🌟 Key Highlights & Architecture Principles
+## Key Highlights & Architecture Principles
 
 - **Strict Clean Architecture (Feature-First):** Clear separation into `domain`, `data`, and `presentation` layers for every core business domain.
 - **Dynamic Multi-Vendor Capabilities:**
@@ -36,7 +38,7 @@ A production-grade, enterprise-architected Flutter application designed from the
 
 ---
 
-## 📐 Clean Architecture & Data Flow
+## Clean Architecture & Data Flow
 
 ```mermaid
 flowchart TD
@@ -71,7 +73,7 @@ flowchart TD
 
 ---
 
-## 📂 Project Folder Structure
+## Project Folder Structure
 
 ```
 lib/
@@ -139,7 +141,7 @@ lib/
 
 ---
 
-## 🚀 Core Features Walkthrough
+## Core Features Walkthrough
 
 ### 1. Authentication Flow
 - **Form Validation:** Client-side validation for username/email and passwords.
@@ -174,7 +176,7 @@ lib/
 
 ---
 
-## 🛠️ Tech Stack & Packages
+## Tech Stack & Packages
 
 | Package | Purpose |
 |---|---|
@@ -191,7 +193,7 @@ lib/
 
 ---
 
-## ⚡ Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - Flutter SDK `^3.47.0` or higher
@@ -217,7 +219,7 @@ flutter run
 
 ---
 
-## 🧪 Testing
+## Testing
 
 The project includes unit and domain calculation tests verifying:
 - Discounted price logic on `ProductEntity`.
